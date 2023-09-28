@@ -2,6 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     margin: 0;
+    background-color: #dfd1be;
     display: flex;
     flex-direction: column;
 }
@@ -69,4 +70,37 @@ a {
 
 .container ul li {
     flex-shrink: 0;
+}
+
+.inside {
+    border: 1px solid #002f6c;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 5px;
+}
+
+.body {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+}
+
+.cont p {
+    text-align: center;
+}
+
+.title2 {
+    margin-top: 5vh;
+    text-align: center;
+    color: #002f6c;
+    background-color: #4d88ec;
 }
